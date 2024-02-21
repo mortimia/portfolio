@@ -1,0 +1,40 @@
+.header__blue {
+    background: #00093C;
+}
+
+.header a {
+    color: #fff;
+}
+
+.header__line a{
+    color: #FFCE94;
+}
+
+.main h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.main__info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.main__t {
+    font-size: 18px;
+}
+
+.main__contact {
+    margin: 50px 0px;
+}
+
+.form {
+    top: 250px;
+}
+
+.footer {
+    top: 200px;
+}
+

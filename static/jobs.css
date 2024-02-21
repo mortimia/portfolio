@@ -1,0 +1,272 @@
+.header__line a {
+    color: #F7941D;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    background: #00093C;
+    padding: 40px;
+    color: #fff;
+}
+
+.main__logo {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.main__t {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.main__btn {
+    width: 280px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: #F7941D;
+    color: #fff;
+    font-size: 14px;
+    margin: 100px 0px;
+}
+
+.main__el {
+    display: flex;
+    justify-content: center;
+}
+
+.main__elements img {
+    padding: 20px;
+}
+
+.statistics {
+    position: relative;
+    top: 200px;
+    margin: 0px 100px;
+}
+
+.statistics__title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.statistics__text {
+    font-size: 18px;
+}
+
+/* сова и 3 столбца */
+
+.ornt__sova {
+    margin-right: 50px;
+}
+
+.ornt__cont {
+    font-size: 16px;
+}
+
+.ornt__content {
+    background-image: url(/static/img/Union\(2\).png);
+    width: 350px;
+    height: 135px;
+}
+
+.ornt__columns {
+    display: flex;
+    gap: 50px;
+}
+
+.ortn__column {
+    width: 240px;
+}
+
+.ornt__logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ornt__text {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.7px;
+}
+
+/* way */
+
+.way {
+    position: relative;
+    top: 300px;
+    background: #00093C;
+    color: #fff;
+    text-align: center;
+}
+
+.way__points {
+    display: flex;
+    justify-content: space-around;
+}
+
+.way__point {
+    width: 280px;
+}
+
+.way__logo {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    padding: 70px;
+}
+
+.way__group img {
+    position: relative;
+    top: 30px;
+}
+
+.way__text {
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    line-height: 20px;
+    opacity: 70%;
+    position: relative;
+    top: -60px;
+}
+
+.way__btn {
+    width: 280px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: #F7941D;
+    color: #fff;
+    font-size: 14px;
+    margin: 30px;
+}
+
+/* vacancys */
+
+.vacancys {
+    position: relative;
+    top: 400px;
+    margin: 0px 100px;
+}
+
+.vacancys__logo {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.vacansys__points {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vacansy {
+    width: 380px;
+    height: 210px;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 12px;
+    color: #00093C;
+}
+
+.vacansy__logo {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.vacansy__text {
+    font-size: 12px;
+    line-height: 18px;
+    opacity: 70%;
+}
+
+.vacansy__zp {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.green {
+    background: #B8EFCF;
+}
+
+.blue__light {
+    background: #C7EEFF;
+}
+
+.yellow {
+    background: #FFE38E;
+}
+
+/* company */
+
+.company {
+    position: relative;
+    top: 500px;
+    margin: 0px 100px;
+}
+
+.company__logo {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.company__group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.company__card {
+    width: 180px;
+    height: 120px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #C7EEFF;
+    margin: 20px;
+    text-align: center;
+}
+
+.company__card img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* history */
+
+.history {
+    position: relative;
+    top: 600px;
+    background-image: url(/static/img/Group\ 861.png);
+}
+
+.history__logo {
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 40px;
+    
+}
+
+.history__cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 0px 40px 0px;
+}
+
+/* welcome */
+
+.welcome {
+    position: relative;
+    top: 650px;
+}
+
+.form {
+    position: relative;
+    
+}
+
+.footer {
+    position: relative;
+    top: 800;
+}

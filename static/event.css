@@ -1,0 +1,175 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    background: #00093C;
+}
+
+.main__logo {
+    font-size: 42px;
+}
+
+.main__sign {
+    font-size: 24px;
+}
+
+.main__gr {
+    line-height: 15px;
+}
+
+.main__columns {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.main__column {
+    width: 182px;
+}
+
+hr {
+    background: linear-gradient(to right, #F7941D, #27AAE1);
+    height: 2px;
+    border: none;
+}
+
+.main__t {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.main__label {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.main__btn {
+    width: 280px;
+    height: 50px;
+    color: #fff;
+    font-size: 14px;
+    background: #F7941D;
+    border: none;
+    border-radius: 10px;
+}
+
+.main__img img {
+    width: 650px;
+    height: 480px;
+}
+
+/* сова и 3 столбца */
+
+.ornt__sova {
+    margin-right: 50px;
+}
+
+.ornt__cont {
+    font-size: 16px;
+}
+
+.ornt__content {
+    background-image: url(/static/img/Union\(2\).png);
+    width: 350px;
+    height: 135px;
+}
+
+.ornt__columns {
+    display: flex;
+    gap: 50px;
+}
+
+.ortn__column {
+    width: 240px;
+}
+
+.ornt__logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ornt__text {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.7px;
+}
+
+/* мер проводят */
+
+.slider {
+    top: 150px;
+}
+
+.slider__group {
+    margin-top: 50px;
+}
+
+.slider__photo {
+    display: flex;
+    justify-content: center;
+}
+
+.slider__photo img {
+    width: 120px;
+    height: 120px;
+    border: 3px solid blueviolet;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.slider__title {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.slider__t {
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+}
+
+/* фото с пр мер */
+
+.gallery {
+    position: relative;
+    top: 220px;
+    text-align: center;
+}
+
+.gallery__title {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.gallery__t {
+    line-height: 30px;
+}
+
+.gallery__logo {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.gallery__text {
+    font-size: 18px;
+}
+
+.gallery__slide img {
+    margin: 20px 10px;
+}
+
+.gallery__slide img:hover {
+    box-shadow: 0 0 20px #27AAE1;
+    border-radius: 20px;
+}
+
+.form {
+    top: 350px;
+}
+
+.footer {
+    top: 300px;
+}

@@ -1,0 +1,26 @@
+.main__lg {
+    line-height: 0px;
+}
+
+.main__lorem {
+    position: relative;
+    top: -300px;
+}
+
+.main__content {
+    font-size: 18px;
+}
+
+.main__data {
+    font-size: 12px;
+}
+
+.form {
+    position: relative;
+    top: -100px;
+}
+
+.footer {
+    position: relative;
+    top: -150px;
+}

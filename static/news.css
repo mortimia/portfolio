@@ -1,0 +1,53 @@
+.news {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px;
+}
+
+.news__card {
+    width: 380px;
+    height: 500px;
+    box-shadow: 0px 0px 40px rgba(8, 230, 211, 0.658);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.news__card:hover {
+    transform: translate(-2px, -5px);
+    transition: all 0.1s ease;
+    box-shadow: 0 0 20px #27AAE1;
+}
+
+.news__content {
+    padding: 20px;
+    line-height: 23px;
+}
+
+.news__text {
+    font-size: 12px;
+    opacity: 70%;
+}
+
+.news__logo {
+    font-size: 18px;
+}
+
+.news__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.news__link a {
+    font-size: 14px;
+}
+
+.form {
+    top: 50px;
+}
+
+.footer {
+    top: 0;
+}

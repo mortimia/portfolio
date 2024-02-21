@@ -1,0 +1,246 @@
+.main {
+    background: #00093C;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.main__logo {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.main__sign {
+    font-size: 24px;
+}
+
+hr {
+    height: 4px;
+    border: none;
+    background: linear-gradient(to right, #F7941D, #27AAE1);
+}
+
+.main__elements {
+    display: flex;
+    gap: 30px;
+}
+
+.main__items {
+    line-height: 20px;
+}
+
+.element__one {
+    width: 120px;
+}
+
+.element__two {
+    width: 310px;
+}
+
+.element__three {
+    width: 350px;
+}
+
+.main__t {
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+
+.main__tit {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.main__tl {
+    font-size: 16px;
+    letter-spacing: 0.3px;
+}
+
+.main__btn {
+    width: 285px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: #F7941D;
+    color: #fff;
+    font-size: 14px;
+}
+
+.ornt__sova {
+    margin-right: 50px;
+}
+
+.ornt__cont {
+    font-size: 16px;
+}
+
+.ornt__content {
+    background-image: url(/static/img/Union\(2\).png);
+    width: 350px;
+    height: 135px;
+}
+
+.ornt__columns {
+    display: flex;
+    margin: 0px 0px 0px 40px;
+}
+
+.ortn__column {
+    width: 220px;
+}
+
+.ornt__logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ornt__text {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.7px;
+}
+
+.chess {
+    margin: 0px 100px;
+    position: relative;
+    top: -200px;
+}
+
+.chess__logo {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.chess__text {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+}
+
+.chess__items {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.chess__item {
+    width: 180px;
+}
+
+.stripe {
+    background: #00093C;
+    border: 10px;
+    border-left-color: #00093C;
+    border-bottom-color: #00093C;
+    border-right-color: #00093C;
+    border-style: dashed;
+    color: #fff;
+    text-align: center;
+}
+
+.stripe__items {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.stripe__text {
+    font-size: 18px;
+    opacity: 70%;
+    width: 480px;
+}
+
+.stripe__btn {
+    width: 190px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    background: #F7941D;
+    color: #fff;
+    font-size: 14px;
+    margin: 0px 0px 40px 0px;
+}
+
+.gallery {
+    margin: 100px;
+}
+
+.gallery__logo {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.gallery__text {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+}
+
+.gallery__photo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery__photo img:hover {
+    box-shadow: 0 0 20px #27AAE1;
+    border-radius: 20px;
+}
+
+.content {
+    margin: 0px 100px;
+}
+
+.content__logo {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.content__text {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+}
+
+.slider {
+    top: 0px;
+    margin: 100px 0px;
+}
+
+.slider__group {
+    margin-top: 50px;
+}
+
+.slider__photo {
+    display: flex;
+    justify-content: center;
+}
+
+.slider__photo img {
+    width: 120px;
+    height: 120px;
+    border: 3px solid blueviolet;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.slider__title {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.slider__t {
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+}
+
+.form {
+    top: 50px;
+}
+
+.footer {
+    top: 0px;
+}

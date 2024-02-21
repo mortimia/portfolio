@@ -1,0 +1,139 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.header__blue {
+    background: #00093C;
+}
+
+.header__blue a {
+    color: #fff;
+}
+
+.header__line a{
+    color: #FFCE94;
+}
+
+.main {
+    margin: 0px 200px;
+}
+
+.main__logo {
+    margin: 40px 0px;
+}
+
+.main__menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__heading {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+.main__inp {
+    line-height: 45px;
+}
+
+.main__inp label {
+    font-size: 14px;
+}
+
+.main__radio {
+    margin: 50px 0px 0px;
+}
+
+.main__radio hr {
+    width: 300px;
+}
+
+.main__label {
+    font-size: 14px;
+}
+
+input {
+    accent-color: #27AAE1;
+}
+
+.input__range {
+    width: 300px;
+}
+
+/* card */
+.main__cards {
+    display: flex;
+}
+
+.cards {
+    width: 400px;
+    height: 250px;
+    background: #C7EEFF;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 20px;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+.cards:hover {
+    transform: translate(-2px, -5px);
+    transition: all 0.1s ease;
+    box-shadow: 0 0 20px #27AAE1;
+}
+
+.cards__text {
+    font-size: 12px;
+    opacity: 70%;
+}
+
+.cards__gr {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards__logo {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.yellow {
+    background: #FFE38E;
+}
+
+.green {
+    background: #B8EFCF;
+}
+
+.light__blue {
+    background: #C5DDFF;
+}
+
+.grey {
+    background: #FFEEF6;
+}
+
+.orange {
+    background: #FFCE94;
+}
+
+.purple {
+    background: #DDDDFF;
+}
+
+.light__yellow {
+    background: #FFE9A8;
+}
+
+.form {
+    top: 250px;
+}
+
+.footer {
+    top: 200px;
+}
